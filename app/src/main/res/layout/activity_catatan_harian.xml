@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".catatanHarian">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="6dp">
+
+
+        <EditText
+            android:id="@+id/beratBadan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Berat Badan (kg)"
+            android:paddingTop="50sp" />
+
+        <EditText
+            android:id="@+id/tinggiBadan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tinggi Badan (cm)"
+            android:paddingTop="50dp" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Usia"
+            android:inputType="textPersonName"
+            android:paddingTop="50dp" />
+
+        <Button
+            android:id="@+id/buttonHarian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Hitung"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="307dp"
+            tools:layout_editor_absoluteY="222dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
