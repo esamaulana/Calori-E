@@ -14,9 +14,9 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
 
-        <meta-data
-            android:name="com.google.android.actions"
-            android:resource="@xml/network_security_config" />
+        <!--<meta-data-->
+            <!--android:name="com.google.android.actions"-->
+            <!--android:resource="@xml/network_security_config" />-->
 
         <activity android:name=".DetailsActivity" />
         <activity
@@ -33,16 +33,16 @@
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".cariMakanan"
-            android:label="Cari Makanan" />
+            android:label="Food Finder" />
         <activity
             android:name=".KalkulatorIMT"
-            android:label="Kalkulator IMT" />
+            android:label="IBM Calc" />
         <activity
             android:name=".catatanHarian"
             android:label="Catatan Harian" />
         <activity
             android:name=".beritaKesehatan"
-            android:label="Berita Kesehatan" />
+            android:label="News" />
         <activity
             android:name=".about"
             android:label="Makers" />

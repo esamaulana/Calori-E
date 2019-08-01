@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Kolori</string>
+    <string name="app_name">Calori-E</string>
     <string name="textview">TextView</string>
     <string name="feedback">feedback</string>
     <string name="total_kalori_kalori_kkal_kalori_total_kkal_pencent">Total Kalori: [kalori] kkal / [kalori_total] kkal [pencent]</string>
